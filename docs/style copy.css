@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(130, 125, 125);
+}
+html {
+  scroll-behavior: smooth;
+}
+.main1 {
+  background-color: rgb(175, 13, 13);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.main1semi {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5%;
+}
+
+.main1semiobject {
+  background-color: rgb(32, 149, 154);
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 100px 0; */
+}
+
+
+
+
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+.main1cd {
+  background-color: #1dc850;
+  height: 88vh;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin: 1%; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.main1cdl {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(157, 98, 21);
+  margin: 1%;
+}
+.main1cdr {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(13, 22, 181);
+  margin: 1%;
+  align-self: flex-end;
+}
+
+
+
+
+
+.main1logo{
+    position: absolute;
+}
