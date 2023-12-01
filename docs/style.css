@@ -469,15 +469,17 @@ html {
 #main3c{
   background-color: #23d04e;
   width: 70%;
-  height: 60%;
+  height: 40%;
   display: flex;
   flex-wrap: wrap;
 
 }
 .main3ele{
   background-color: #2ea2c5;
+  /* flex: 1; */
   width: 23%;
-  height: 46%;
+  /* width: %; */
+  /* height: 48%; */
   margin: 1%;
 }
 
