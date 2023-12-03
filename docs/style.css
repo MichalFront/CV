@@ -467,23 +467,32 @@ html {
   justify-content: center;
 }
 #main3c{
-  background-color: #23d04e;
+  /* background-color: #23d04e; */
   width: 70%;
   height: 40%;
   display: flex;
   flex-wrap: wrap;
 
 }
-.main3ele{
-  background-color: #2ea2c5;
-  /* flex: 1; */
+.main3ele {
+  border: 1px solid #ffffff;
+  /* background-color: #2ea2c5; */
   width: 23%;
-  /* width: %; */
-  /* height: 48%; */
+  height: 42%;
   margin: 1%;
+  display: flex;
+  align-items: stretch; /* Rozciągnij elementy wzdłuż osi krzyżowej (osi Y) */
 }
 
-
+.main3img {
+  flex: 1; /* Rozciągnij obrazek, aby wypełnił całą dostępną przestrzeń */
+  object-fit: cover; /* Dopasuj obrazek do wymiarów obiektu, zachowując proporcje */
+  width: 100%;
+  height: 100%;
+}
+.main3ele:hover{
+  background-color: #ffffff;
+}
 
 
 
@@ -596,7 +605,17 @@ ul li a:hover::before{
 
 
 
-
+.main3elein{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1.5vw;
+  color: #fff;
+}
+.main3elein:hover{
+  background-color: #ffffff;
+  color: #2ea2c5;
+}
 
 /*******************************************/
 /*             CZWARTA SEKCJA                */
@@ -613,7 +632,7 @@ ul li a:hover::before{
 .cztery {
   color: #ffffff;
   align-items: center;
-  font-size: 300px;
+  font-size: 3vh;
 }
 
 
