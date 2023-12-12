@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   /*usun poniezej*/
-  box-sizing:border-box;
-  font-family:"Poppins", sans-serif;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
   /*usun powyzej*/
 }
 body {
@@ -54,7 +53,7 @@ html {
 .main1semiobject:first-child {
   margin-top: 2vh;
 }
-#piec{
+#piec {
   margin-right: 4vw;
 }
 
@@ -107,7 +106,6 @@ html {
   color: rgb(98, 153, 182);
   border-bottom: 2px solid rgb(15, 108, 159);
 }
-
 
 .main1cd {
   /* background-color: #167b34; */
@@ -238,37 +236,9 @@ html {
 /**********************/
 /* 30.11 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*******************************************/
 /*             DRUGA SEKCJA                */
 /*******************************************/
-
-
-
-
 
 #main2 {
   /* background-color: rgb(59, 60, 65); */
@@ -392,11 +362,10 @@ html {
   overflow: visible;
   border-radius: 10%;
 }
-.mm:hover{
-  background-color:#504a4a7c;
+.mm:hover {
+  background-color: #504a4a7c;
   cursor: pointer;
 }
-
 
 .l2lewo {
   /* background-color: lawngreen; */
@@ -417,8 +386,6 @@ html {
   align-items: center;
   margin: 1vh;
 }
-
-
 
 /* .l2lewoimg{
   background-color: #282925;
@@ -449,9 +416,6 @@ html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
-
 /*******************************************/
 /*             TRZECIA SEKCJA                */
 /*******************************************/
@@ -466,13 +430,12 @@ html {
   align-items: center;
   justify-content: center;
 }
-#main3c{
+#main3c {
   /* background-color: #23d04e; */
   width: 70%;
   height: 40%;
   display: flex;
   flex-wrap: wrap;
-
 }
 .main3ele {
   border: 1px solid #ffffff;
@@ -490,22 +453,19 @@ html {
   width: 100%;
   height: 100%;
 }
-.main3ele:hover{
+.main3ele:hover {
   background-color: #ffffff;
 }
-
-
-
-
-
-
+.main3img:hover {
+  opacity: 0.8;
+}
 
 .trzy {
   color: #ffffff;
   align-items: center;
   font-size: 300px;
 }
-.main1pcon{
+.main1pcon {
   list-style: none;
   position: fixed;
   z-index: 1;
@@ -520,39 +480,40 @@ html {
 /*nowe-usun pod tym*/
 /*nowe-usun pod tym*/
 
-ul{
+ul {
   list-style: none;
 }
-ul li{
+ul li {
   margin: 1vh 0;
 }
 
-ul li a{
+ul li a {
   color: #586668de;
   list-style: none;
   /* position:relative; */
-  text-decoration:none;
-  font-size:1.5rem;
-  line-height:1.5rem;
-  letter-spacing:2px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 2px;
   /* color:transparent; */
-  -webkit-text-stroke:1px var(--clr);
+  -webkit-text-stroke: 1px var(--clr);
 }
 
-ul li a::before{
-  content:attr(data-text);
-  position:absolute;
-  color:var(--clr);
-  width:0px;
-  overflow:hidden;
-  transition:1s;
+ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: var(--clr);
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
 
-  border-right:1px solid var(--clr);
+  border-right: 1px solid var(--clr);
 }
-ul li a:hover::before{
-  width:100%;
-  filter:drop-shadow(7px -102px 50px var(--clr));}
- /*  text-shadow:
+ul li a:hover::before {
+  width: 100%;
+  filter: drop-shadow(7px -102px 50px var(--clr));
+}
+/*  text-shadow:
       0 0 7px var(--clr),
       0 0 10px var(--clr),
       0 0 21px var(--clr),
@@ -564,19 +525,6 @@ ul li a:hover::before{
 }
 }*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*k.nowe*usundotegomiesjca*/
 /*k.nowe*usundotegomiesjca*/
 /*k.nowe*usundotegomiesjca*/
@@ -586,33 +534,28 @@ ul li a:hover::before{
 /*k.nowe*usundotegomiesjca*/
 /*k.nowe*usundotegomiesjca*/
 
-.main1pcon li{
+.main1pcon li {
   list-style: none;
   /* background-color: #d51313; */
   margin: 3vh 0;
   font-size: 1.5vh;
   color: #fff;
 }
-.main1pcon li:hover{
+.main1pcon li:hover {
   color: #23d04e;
   cursor: pointer;
 }
 
 /*888888989898989898989898989898989898989 */
 
-
-
-
-
-
-.main3elein{
+.main3elein {
   display: flex;
   align-items: center;
   margin: 0 auto;
   font-size: 1.5vw;
   color: #fff;
 }
-.main3elein:hover{
+.main3elein:hover {
   background-color: #ffffff;
   color: #2ea2c5;
 }
@@ -635,41 +578,38 @@ ul li a:hover::before{
   font-size: 3vh;
 }
 
-
-
-
 /*******************************************/
 /*                   MEDIA                 */
 /*******************************************/
 
 /* 4k+ */
-@media only screen and (min-width: 1600px)  {
+@media only screen and (min-width: 1600px) {
   .skills {
     font-size: 1.4rem;
   }
-  #piec{
+  #piec {
     margin-right: 4vw;
   }
 }
 /* LAPTOP L */
-@media only screen and (max-width: 1500px)  {
-  #piec{
+@media only screen and (max-width: 1500px) {
+  #piec {
     margin-right: 6vw;
   }
 }
 /* LAPTOP */
 /* @media only screen and (max-width: 1111px)  { */
-@media only screen and (max-width: 1350px)  {
-  #piec{
+@media only screen and (max-width: 1350px) {
+  #piec {
     margin-right: 10vw;
   }
   .main2d {
     margin: 0;
   }
-  .mm{
+  .mm {
     width: 22%;
   }
-  .l2lewo{
+  .l2lewo {
     /* padding: 5px 0px 5px 15px; */
     padding: 12px;
   }
@@ -681,7 +621,7 @@ ul li a:hover::before{
   }
 }
 /* TABLET+ */
-@media only screen and (min-width: 641px) and (max-width: 1000px)  {
+@media only screen and (min-width: 641px) and (max-width: 1000px) {
   /* SEKCJA 1 ******************************************/
   .main1p1 p {
     font-size: 20px;
@@ -695,24 +635,24 @@ ul li a:hover::before{
     font-size: 13px;
   }
   /* SEKCJA 2 ******************************************/
-  .main1pcon{
+  .main1pcon {
     display: none;
   }
-  .mm{
+  .mm {
     flex-direction: column;
     margin: 0;
   }
-  .l2prawo{
+  .l2prawo {
     display: none;
   }
-  .l2lewo{
+  .l2lewo {
     margin-top: 0;
     max-height: 100%;
     max-width: 100%;
   }
 }
 /* TABLET */
-@media only screen and (min-width: 500px) and (max-width: 640px)  {
+@media only screen and (min-width: 500px) and (max-width: 640px) {
   /* SEKCJA 1 ******************************************/
   .main1p1 p {
     font-size: 20px;
@@ -726,19 +666,19 @@ ul li a:hover::before{
     font-size: 13px;
   }
   /* SEKCJA 2 ******************************************/
-  .main2all{
+  .main2all {
     margin-right: 5vw;
   }
-  .main2u{
+  .main2u {
     margin: 5vh 0 0 0;
   }
-  .l2lewo{
+  .l2lewo {
     /* padding: 0px; */
   }
-  .l2prawo{
+  .l2prawo {
     /* display: none; */
   }
-  .main1pcon{
+  .main1pcon {
     display: none;
   }
   /*TEST wyswietlania z napisem w kolumnie*/
@@ -746,24 +686,22 @@ ul li a:hover::before{
     font-size: 2vh;
     font-weight: 900;
   }
-  .l2prawo{
+  .l2prawo {
     margin: 0;
     margin-bottom: 3vh;
   }
-  .mm{
+  .mm {
     flex-direction: column;
   }
   .skills {
     font-size: 0.9rem;
   }
-
 }
 
-
 /* MOBILE L */
-@media only screen and (max-width: 499px)  {
+@media only screen and (max-width: 499px) {
   /* SEKCJA 1 ******************************************/
-  .main1p1{
+  .main1p1 {
     flex: 9;
   }
   .main1p1 p {
@@ -777,17 +715,17 @@ ul li a:hover::before{
   .main1p3 {
     font-size: 20px;
   }
-  .main1cd{
+  .main1cd {
     flex-direction: column;
   }
-  .main1cdl{
+  .main1cdl {
     margin-left: 0;
     width: 100%;
     padding-left: 3%;
     /* justify-content: center; */
     /* align-items: center; */
   }
-  .main1cdr{
+  .main1cdr {
     margin-right: 0;
     width: 100%;
     align-items: flex-start; /* zdjęcie na górze */
@@ -799,7 +737,7 @@ ul li a:hover::before{
     margin-left: -5vw;
     /**/
   }
-  .main1pcon{
+  .main1pcon {
     display: none;
   }
 
@@ -823,20 +761,19 @@ ul li a:hover::before{
   }
 
   /*TEST wyswietlania z napisem w kolumnie*/
-  .l2prawo{
+  .l2prawo {
     margin: 0;
     margin-bottom: 3vh;
   }
-  .mm{
+  .mm {
     flex-direction: column;
   }
   .skills {
     font-size: 0.9rem;
   }
-
 }
 /* MOBILE S */
-@media only screen and (max-width: 340px)  {
+@media only screen and (max-width: 340px) {
   /*pierwsza nav*/
   .main1cu {
     margin-top: 2vh;
@@ -865,29 +802,28 @@ ul li a:hover::before{
   .skills {
     font-size: 0.7rem;
   }
-  .main2d{
+  .main2d {
     margin-left: 4vw;
   }
-
 }
 
 /*******************************************/
 /*          MEDIA ( LANDSCAPE )            */
 /*******************************************/
-@media only screen and (max-height : 420px) and (max-width : 1000px) and (orientation : landscape) {
-  .l2prawo{
+@media only screen and (max-height: 420px) and (max-width: 1000px) and (orientation: landscape) {
+  .l2prawo {
     display: none;
   }
-  .l2lewo{
+  .l2lewo {
     padding: 4vh;
   }
-  .mm{
+  .mm {
     width: 12%;
     margin: 1vw;
   }
 }
-@media only screen and (max-height : 420px) and (min-width : 600px) and (max-width : 700px){
-  .l2lewo{
+@media only screen and (max-height: 420px) and (min-width: 600px) and (max-width: 700px) {
+  .l2lewo {
     margin-top: 0;
     margin-bottom: 6vh;
   }
